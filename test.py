@@ -1,7 +1,7 @@
 import unittest
 from gxygram import app;
 
-class ZkcgramTest(unittest.TestCase):
+class GxygramTest(unittest.TestCase):
     def setUp(self):
         print 'setup'
         app.config['TESTING'] = True
